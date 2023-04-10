@@ -1,0 +1,109 @@
+/* .collapse{
+    position: relative;
+    right: 1%;
+} */
+
+.navbar-nav {
+    position: absolute;
+    right: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand{
+color: #fff;
+letter-spacing: 2px;
+}
+
+ul li a{
+    color: #fff !important;
+}
+
+.btn{
+    color: #fff;
+    background-color: green;
+    letter-spacing: 2px;
+    font-weight: 600;
+    border-radius: 18px;
+}
+
+.header{
+    background-image: linear-gradient(to right top, rgba(83, 87, 24,0.1), rgba(100, 105, 24), rgba(117, 124, 23,0.8), rgba(135, 143, 20,0.3), rgba(153, 162, 15)),url(pexels-tom-fisk-1483880.jpg);
+    background-size: cover;
+}
+.act{
+    border-right: solid rgba(117, 124, 23,0.8) 1px;
+}
+
+.act-top{
+    border-top: solid rgba(117, 124, 23,0.8) 1px ;
+}
+
+.box{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(171, 175, 92);
+}
+ .imag{
+     
+    height: 100%;
+ }
+.display-3{
+    font-weight: 700;
+}
+.list-group-item{
+background-color: transparent;
+color: #fff;
+font-weight: bold
+}
+
+.badge{
+    font-size: 20px;
+}
+ 
+
+.below{
+    z-index: -10;
+}
+
+.top{
+    z-index: 1;
+}
+ 
+.over{
+    background-image: linear-gradient(to right top, rgba(157, 149, 16,.6), rgba(148, 152, 13,.6), rgba(139, 154, 13,.7), rgba(128, 157, 16,.8), rgba(117, 159, 21,.6));
+    z-index: -1;
+}
+
+.se{
+    color: rgb(171, 175, 92);
+}
+
+.agri{
+    /* text-align: right; */
+    /* position: relative;
+    left: 10%;
+    top: 4%; */
+    /* box-shadow: 2px 2px 8px rgba(0,0,0,.25); */
+    transition: 0.5s linear;
+}
+.agri p{
+    font-weight: 600;
+}
+
+.agri:hover{
+    transform: scale(1.05);
+}
+ 
+.btn1{
+    color: #fff;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 2px 20px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    border: solid #fff 2px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
